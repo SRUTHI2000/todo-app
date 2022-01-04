@@ -9,6 +9,7 @@ const TodoInput = ({addTodo}) => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
+        document.getElementById("todo-input").value = "";
         if(inp != "" && inp.trim() != ""){
             let todo = {text: inp, timestamp: Date.now(), progress: "new"};
             addTodo(todo);
@@ -18,7 +19,7 @@ const TodoInput = ({addTodo}) => {
     return (
         <div>
             <form onSubmit={handleSubmit} className='todo-input'>
-                <input type="text" onChange={(e) => setInp(e.target.value)} />
+                <input id='todo-input' type="text" onChange={(e) => setInp(e.target.value)} />
                 <button type='button' onClick={handleSubmit}>ADD TODO</button>
             </form>
         </div>

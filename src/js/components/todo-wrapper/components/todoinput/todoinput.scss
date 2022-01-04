@@ -1,0 +1,26 @@
+.todo-input {
+    display: flex;
+    flex-direction: column;
+
+    input {
+        width: 50%;
+        padding: 10px;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        border: 2px solid blueviolet;
+    }
+
+
+    button {
+        width: 100px;
+        padding: 10px;
+        margin-top: 20px;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        background-color: blueviolet;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+}

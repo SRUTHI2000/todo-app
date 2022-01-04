@@ -1,0 +1,34 @@
+.todo-item {
+    display: flex;
+    height: 50px;
+    border: 1px solid blueviolet;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.todo-name {
+    flex: 3;
+    color: brown;
+    margin-left: 10px;
+}
+
+.todo-input-name {
+    flex: 3;
+}
+
+.todo-progress {
+    flex: 3;
+}
+
+.icons {
+    display: flex;
+    img{
+        height: 30px;
+        width: 30px;
+        margin-right: 10px;
+    }
+}

@@ -1,0 +1,9 @@
+export const CREATE_TODO = "CREATE_TODO";
+export const DELETE_TODO = "DELETE_TODO";
+export const UPDATE_PROGRESS = "UPDATE_PROGRESS";
+export const UPDATE_COMPLETED = "UPDATE_COMPLETED";
+export const UPDATE_TODO = "UPDATE_TODO";
+export const GET_TODOS = "GET_TODOS";
+export const SET_TODOS = "SET_TODOS";
+export const SET_SELECTED = "SET_SELECTED";
+export const DELETE_FROM_SELECTED = "DELETE_FROM_SELECTED";

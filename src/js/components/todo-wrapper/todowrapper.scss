@@ -1,0 +1,46 @@
+.todo-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    color: blueviolet;
+
+    h1 {
+        text-align: center;
+    }
+}
+
+.icon-info-wrapper {
+    display: flex;
+}
+
+.icon-info {
+    align-items: center;
+    margin-top: 20px;
+    border: 1px solid;
+    padding: 10px;
+    span {
+        font-weight: bold;
+        font-size: large;
+        text-align: center;
+    }
+    img {
+        height: 30px;
+        width: 30px;
+    }
+}
+
+.icons-wrapper {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    flex: 6;
+    justify-content: flex-end;
+    width: 50%;
+}
+
+.img-button {
+    height: 40px;
+    width: 40px;
+    margin-left: 25px;
+}

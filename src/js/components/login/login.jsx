@@ -14,6 +14,9 @@ const Login = (props) => {
     const onLoginClick = e => {
         e.preventDefault();
         loginDB.getUser().then((users) => {
+            if(users.length == 0){
+                alert("Please Register before Logging in");
+            }
             for(let user of users) {
                 if(user.username == username) {
                     if(user.password == loginDB.getHashedPassword(password,user.salt)) {
